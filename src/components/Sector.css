@@ -1,0 +1,22 @@
+.custom-select {
+  height: 40px;
+  background-color: #a00000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  appearance: none;
+  width: 125px;
+}
+
+.custom-select:hover {
+  background-color: #800020;
+}
+
+.custom-select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(128, 0, 32, 0.5);
+}

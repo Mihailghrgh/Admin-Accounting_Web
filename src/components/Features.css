@@ -1,0 +1,114 @@
+.features-section {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.feature-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 100px;
+  min-height: 400px;
+}
+
+.feature-container:last-child {
+  margin-bottom: 0;
+}
+
+.image-right {
+  flex-direction: row;
+}
+
+.image-left {
+  flex-direction: row-reverse;
+}
+
+.content-side {
+  flex: 1;
+  max-width: 500px;
+}
+
+.icon-container {
+  width: 60px;
+  height: 60px;
+  background-color: #8b001d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+  background-image: url("https://www.svgrepo.com/show/8777/calculator.svg") !important;
+}
+
+.content-side h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.content-side p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.image-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .feature-container {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .image-left {
+    flex-direction: column;
+  }
+
+  .content-side {
+    max-width: 100%;
+  }
+
+  .icon-container {
+    margin: 0 auto 20px auto;
+  }
+
+  .image-side {
+    order: -1;
+  }
+
+  .feature-image {
+    max-width: 80%;
+  }
+}
