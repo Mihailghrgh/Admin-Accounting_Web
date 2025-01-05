@@ -36,7 +36,7 @@ export default function App() {
 
       {activePage === "portofolio" && (
         <>
-          <Portofolio />
+          <Portofolio handleScrollIntoView={handleScrollIntoView} />
         </>
       )}
 

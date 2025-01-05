@@ -2,6 +2,7 @@ import React from "react";
 import "./Portofolio.css";
 
 export default function Portofolio() {
+
   const sectors = [
     {
       name: "Sector 6",
@@ -60,7 +61,7 @@ export default function Portofolio() {
   ];
 
   return (
-    <section className="business-showcase">
+    <section className="business-showcase" id="portofolio">
       <div className="container">
         <h2>Portofoliu Administrativ al Clădirilor Rezidențiale </h2>
         <p className="section-description">

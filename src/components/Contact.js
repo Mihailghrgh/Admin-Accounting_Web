@@ -11,24 +11,32 @@ L.Icon.Default.mergeOptions({
   shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
 });
 
+const googleMapsRef = `https://www.google.com/maps?q=44.436129,26.038793" target="_blank" rel="noopener noreferrer`;
+
 export default function Contact() {
   const mapRef = useRef(null);
 
   useEffect(() => {
+    console.log(mapRef);
+
     console.log("mapRef.current", mapRef.current);
 
     if (!mapRef.current) return;
 
-    const map = L.map("map").setView([44.436129, 26.038793], 12);
+    const map = L.map(mapRef.current).setView([44.436129, 26.038793], 14);
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
+    L.tileLayer(
+      "https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.{ext}",
+      {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        ext: "png",
+      }
+    ).addTo(map);
 
     L.marker([44.436129, 26.038793])
       .addTo(map)
-      .bindPopup("Locatia Noastra")
+      .bindPopup(`<a href="${googleMapsRef}">Locatia noastra </a`)
       .openPopup();
 
     return () => {
@@ -89,11 +97,7 @@ export default function Contact() {
               Send Message
             </button>
           </form>
-          <div
-            ref={mapRef}
-            id="map"
-            style={{ height: "520px", width: "100%" }}
-          ></div>
+          <div ref={mapRef} style={{ height: "520px", width: "100%" }}></div>
         </div>
       </div>
     </section>

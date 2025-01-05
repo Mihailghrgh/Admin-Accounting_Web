@@ -16,8 +16,10 @@ export default function Header({ handleScrollIntoView, setPage }) {
                 href="#home"
                 onClick={(e) => {
                   e.preventDefault();
-                  handleScrollIntoView("home");
                   handleSetPage("home");
+                  setTimeout(() => {
+                    handleScrollIntoView("home");
+                  }, 0);
                 }}
               >
                 Home
@@ -28,8 +30,10 @@ export default function Header({ handleScrollIntoView, setPage }) {
                 href="#services"
                 onClick={(e) => {
                   e.preventDefault();
-                  handleScrollIntoView("services");
                   handleSetPage("home");
+                  setTimeout(() => {
+                    handleScrollIntoView("services");
+                  }, 0);
                 }}
               >
                 Services
@@ -41,7 +45,9 @@ export default function Header({ handleScrollIntoView, setPage }) {
                 onClick={(e) => {
                   e.preventDefault();
                   handleSetPage("home");
-                  handleScrollIntoView("about");
+                  setTimeout(() => {
+                    handleScrollIntoView("about");
+                  }, 0);
                 }}
               >
                 About
@@ -52,7 +58,9 @@ export default function Header({ handleScrollIntoView, setPage }) {
                 href="#contact"
                 onClick={(e) => {
                   e.preventDefault();
-                  handleScrollIntoView("contact");
+                  setTimeout(() => {
+                    handleScrollIntoView("contact");
+                  }, 0);
                 }}
               >
                 Contact
@@ -62,8 +70,10 @@ export default function Header({ handleScrollIntoView, setPage }) {
               <a
                 href="#protofolio"
                 onClick={(e) => {
-                  e.preventDefault();
                   handleSetPage("portofolio");
+                  setTimeout(() => {
+                    handleScrollIntoView("portofolio");
+                  }, 500);
                 }}
               >
                 Portofoliu
