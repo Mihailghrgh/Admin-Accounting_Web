@@ -4,7 +4,7 @@
 
 .contact h2 {
   text-align: center;
-  color: #8B001D;
+  color: #8b001d;
   margin-bottom: 50px;
 }
 
@@ -37,15 +37,15 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 16px;
+  resize: none;
 }
 
 .form-group textarea {
   height: 150px;
-  resize: vertical;
 }
 
 .submit-button {
-  background-color: #8B001D;
+  background-color: #8b001d;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -56,7 +56,7 @@
 }
 
 .submit-button:hover {
-  background-color: #6B0016;
+  background-color: #6b0016;
 }
 
 .map-container {
@@ -64,4 +64,3 @@
   border-radius: 10px;
   overflow: hidden;
 }
-

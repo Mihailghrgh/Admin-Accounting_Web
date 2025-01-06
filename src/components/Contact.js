@@ -17,10 +17,6 @@ export default function Contact() {
   const mapRef = useRef(null);
 
   useEffect(() => {
-    console.log(mapRef);
-
-    console.log("mapRef.current", mapRef.current);
-
     if (!mapRef.current) return;
 
     const map = L.map(mapRef.current).setView([44.436129, 26.038793], 14);
@@ -90,8 +86,12 @@ export default function Contact() {
               </select>
             </div>
             <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea id="message" name="message" required></textarea>
+              <label htmlFor="message">Mesaj</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+              ></textarea>
             </div>
             <button type="submit" className="submit-button">
               Send Message

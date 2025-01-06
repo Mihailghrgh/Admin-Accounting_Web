@@ -26,11 +26,12 @@ export default function App() {
     <div className="app">
       <Header handleScrollIntoView={handleScrollIntoView} setPage={setPage} />
 
+      <Hero handleScrollIntoView={handleScrollIntoView} />
+
       {activePage === "home" && (
         <>
-          <Hero handleScrollIntoView={handleScrollIntoView} />
           <Services />
-          <FeatureSection />
+          <FeatureSection id="about" />
         </>
       )}
 
