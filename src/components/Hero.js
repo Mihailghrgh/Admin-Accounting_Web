@@ -5,7 +5,7 @@ export default function Hero({ handleScrollIntoView }) {
   return (
     <section className="hero" id="home">
       <div className="container">
-        <h1>Innovative Accounting & Administration Solutions</h1>
+        <h1>ADMIN BUCURESTI SRL</h1>
         <p>
           Empowering businesses with strategic financial management and
           efficient administrative processes.
