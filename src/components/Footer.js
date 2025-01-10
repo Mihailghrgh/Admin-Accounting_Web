@@ -36,7 +36,7 @@ export default function Footer({ handleScrollIntoView }) {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://example.com"
                   onClick={(e) => {
                     e.preventDefault();
                     handleScrollIntoView("about");
@@ -47,7 +47,7 @@ export default function Footer({ handleScrollIntoView }) {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://example.com"
                   onClick={(e) => {
                     e.preventDefault();
                     handleScrollIntoView("contact");
