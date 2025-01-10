@@ -25,7 +25,7 @@ export default function Footer({ handleScrollIntoView }) {
             <ul>
               <li>
                 <a
-                  href=""
+                  href="#footer"
                   onClick={(e) => {
                     e.preventDefault();
                     handleScrollIntoView("services");
