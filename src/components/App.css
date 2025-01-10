@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 1.6;
 }
 
@@ -15,17 +15,26 @@ body {
   padding: 0 20px;
 }
 
+/* Adjustments for smaller screens */
 @media (max-width: 768px) {
+  .container {
+    max-width: 100%; /* Use full width on mobile for better layout */
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+
   .contact-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Single-column layout for mobile */
+    gap: 20px; /* Adjust gap for better spacing */
   }
-  
+
   .hero h1 {
-    font-size: 36px;
+    font-size: 28px; /* Smaller font size for better fit */
+    text-align: center; /* Center align for smaller screens */
   }
-  
+
   .hero p {
-    font-size: 18px;
+    font-size: 16px; /* Adjust text size for readability */
+    text-align: center; /* Center align text for better appearance */
+    padding: 0 10px; /* Add padding to avoid text touching edges */
   }
 }
-

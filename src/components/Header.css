@@ -54,3 +54,44 @@
 html {
   scroll-behavior: smooth; /* Smooth scrolling for anchor links */
 }
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide nav links initially on mobile */
+    flex-direction: column;
+    gap: 15px;
+    background-color: #8b001d;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex; /* Show nav links when active */
+  }
+
+  .main-nav .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hamburger-menu {
+    display: block;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .logo {
+    flex-grow: 1; /* Ensures logo is aligned properly */
+  }
+}
+
+/* Hamburger menu button (hidden by default) */
+.hamburger-menu {
+  display: none; /* Hidden by default on larger screens */
+}

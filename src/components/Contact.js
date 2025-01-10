@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "./App";
 import "./Contact.css";
-import "./Sector.css";
+import "./Sector.css"
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -86,7 +87,7 @@ export default function Contact() {
               <label htmlFor="message">Mesaj</label>
               <textarea id="message" name="message" required></textarea>
             </div>
-            <button type="submit" className="submit-button">
+            <button type="submit" className="cta-button">
               Send Message
             </button>
           </form>

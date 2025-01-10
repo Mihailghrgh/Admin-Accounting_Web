@@ -1,3 +1,8 @@
+p {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 90%;
+}
 .hero {
   color: white;
   padding: 100px 0;
@@ -26,6 +31,9 @@
   letter-spacing: var(--spacing);
   font-size: 1.1rem;
   line-height: 1.6;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .cta-button {
@@ -44,7 +52,8 @@
   color: #8b001d;
 }
 
-@media screen and (min-width: 768px) {
+/* Adjustments for larger screens */
+@media screen and (min-width: 300px) {
   .hero {
     background-size: cover;
     background:
@@ -53,5 +62,36 @@
   }
   .hero p {
     max-width: 50rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Mobile-friendly adjustments */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 60px 20px; /* Reduce padding for smaller screens */
+    min-height: 60vh; /* Adjust height for mobile */
+  }
+
+  .hero h1 {
+    font-size: 2rem; /* Reduce font size for smaller screens */
+    line-height: 1.3; /* Adjust line height */
+    padding: 0 10px; /* Reduce padding */
+  }
+
+  .hero p {
+    font-size: 1rem; /* Adjust font size */
+    line-height: 1.4; /* Adjust line height */
+    max-width: 90%; /* Limit width */
+    padding: 0 10px; /* Add padding for better fit */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cta-button {
+    padding: 10px 20px; /* Reduce padding */
+    font-size: 0.9rem; /* Adjust font size */
   }
 }
