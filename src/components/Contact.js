@@ -21,14 +21,11 @@ export default function Contact() {
 
     const map = L.map(mapRef.current).setView([44.436129, 26.038793], 14);
 
-    L.tileLayer(
-      "https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.{ext}",
-      {
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        ext: "png",
-      }
-    ).addTo(map);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      ext: "png",
+    }).addTo(map);
 
     L.marker([44.436129, 26.038793])
       .addTo(map)
@@ -87,11 +84,7 @@ export default function Contact() {
             </div>
             <div className="form-group">
               <label htmlFor="message">Mesaj</label>
-              <textarea
-                id="message"
-                name="message"
-                required
-              ></textarea>
+              <textarea id="message" name="message" required></textarea>
             </div>
             <button type="submit" className="submit-button">
               Send Message
