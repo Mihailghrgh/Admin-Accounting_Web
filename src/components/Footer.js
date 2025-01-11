@@ -59,14 +59,15 @@ export default function Footer({ handleScrollIntoView }) {
             </ul>
           </div>
           <div className="footer-section">
-            <h3>Ore Business </h3>
+            <h3>Ore de Business </h3>
             <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
             <p>Saturday - Sunday: Closed</p>
           </div>
         </div>
         <div className="footer-bottom">
           <p>
-            &copy; {new Date().getFullYear()} Company Name. All rights reserved.
+            &copy; {new Date().getFullYear()} All right reserved by Regina
+            Olteniei
           </p>
         </div>
       </div>

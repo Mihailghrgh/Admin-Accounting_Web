@@ -20,12 +20,19 @@
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  text-align: start;
+}
+
+.footer-section p {
+  display: flex;
+  margin-bottom: 0.5rem;
+  margin-left: 0%;
 }
 
 .contact-info p {
   display: flex;
-  align-items: center;
   margin-bottom: 0.5rem;
+  margin-left: 0%;
 }
 
 .icon {
