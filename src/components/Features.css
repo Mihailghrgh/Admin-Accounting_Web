@@ -64,7 +64,8 @@
   font-size: 18px;
   color: #666;
   line-height: 1.6;
-  display: flex;
+  text-align: start;
+  margin-left: 0;
 }
 
 .image-side {
@@ -122,16 +123,16 @@
   }
 
   .feature-image {
-    max-width: 100%; /* Allow full width for images */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    height: auto;
   }
 
   .content-side h2 {
-    font-size: 24px; /* Adjust heading size for smaller screens */
+    font-size: 24px;
   }
 
   .content-side p {
-    font-size: 16px; /* Adjust font size for readability */
+    font-size: 16px;
     line-height: 1.4;
   }
 }

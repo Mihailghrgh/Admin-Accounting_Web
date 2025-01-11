@@ -30,6 +30,7 @@
 .service-card h3 {
   color: #8b001d;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .service-card p {

@@ -3,7 +3,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "./App";
 import "./Contact.css";
-import "./Sector.css"
+import "./Sector.css";
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -38,16 +38,6 @@ export default function Contact() {
     };
   }, []);
 
-  // if (mapRef.current) {
-  //   const map = L.map(mapRef.current).setView([51.505, -0.09], 13);
-  //   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  //     attribution: "© OpenStreetMap contributors",
-  //   }).addTo(map);
-
-  //   // Add marker for business location
-  //   L.marker([51.505, -0.09]).addTo(map);
-  // }
-
   return (
     <section className="contact" id="contact">
       <div className="container">
@@ -59,7 +49,7 @@ export default function Contact() {
             method="POST"
           >
             <div className="form-group">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Nume</label>
               <input type="text" id="name" name="name" required />
             </div>
             <div className="form-group">
@@ -88,7 +78,7 @@ export default function Contact() {
               <textarea id="message" name="message" required></textarea>
             </div>
             <button type="submit" className="cta-button">
-              Send Message
+              Trimite Mesaj
             </button>
           </form>
           <div ref={mapRef} style={{ height: "520px", width: "100%" }}></div>
