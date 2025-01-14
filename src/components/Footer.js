@@ -16,12 +16,13 @@ export default function Footer({ handleScrollIntoView }) {
                 <span className="icon mail-icon"></span> info@company.com
               </p>
               <p>
-                <span className="icon map-icon"></span> Aleea Cetatuia nr.6
+                <span className="icon map-icon"></span>Sector 6, Aleea Cetatuia
+                nr.6
               </p>
             </div>
           </div>
           <div className="footer-section">
-            <h3>Quick Links</h3>
+            <h3>Link-uri rapide</h3>
             <ul>
               <li>
                 <a
@@ -31,7 +32,7 @@ export default function Footer({ handleScrollIntoView }) {
                     handleScrollIntoView("services");
                   }}
                 >
-                  Services
+                  Servicii
                 </a>
               </li>
               <li>
@@ -42,7 +43,7 @@ export default function Footer({ handleScrollIntoView }) {
                     handleScrollIntoView("about");
                   }}
                 >
-                  About Us
+                  Despre noi
                 </a>
               </li>
               <li>
@@ -60,8 +61,8 @@ export default function Footer({ handleScrollIntoView }) {
           </div>
           <div className="footer-section">
             <h3>Ore de Business </h3>
-            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-            <p>Saturday - Sunday: Closed</p>
+            <p>Luni - Vineri: 9:00 AM - 6:00 PM</p>
+            <p>Sâmbătă - Duminică: Închis</p>
           </div>
         </div>
         <div className="footer-bottom">

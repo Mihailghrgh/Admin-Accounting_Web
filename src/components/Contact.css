@@ -5,7 +5,12 @@
 .contact h2 {
   text-align: center;
   color: #8b001d;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.contact p {
+  color: #666;
+  margin-bottom: 40px;
 }
 
 .contact-grid {

@@ -4,31 +4,31 @@ import "./Services.css";
 export default function Services() {
   const services = [
     {
-      title: "Financial Analysis",
+      title: "Administrare financiara",
       description:
-        "Comprehensive financial analysis services tailored to your business needs.",
+        "Simplu și de încredere: folosim platformă online EBloc și contabilitate devine mai simplă.",
     },
     {
-      title: "Tax Planning",
+      title: "Administrare tehnica",
       description:
-        "Comprehensive tax planning services tailored to your business needs.",
+        "Inspecții periodice și servicii de încredere pentru echipamente, anexe și spații comune, asigurând funcționarea optimă și siguranța acestora.",
     },
     {
-      title: "Business Administration",
+      title: "Servicii Adiționale",
       description:
-        "Comprehensive business administration services tailored to your business needs.",
+        "Emitere somații de plată, redactare procese-verbale, publicare anunțuri și asistență specializată.",
     },
     {
-      title: "Risk Management",
+      title: "Casierie",
       description:
-        "Comprehensive risk management services tailored to your business needs.",
+        "Servicii profesionale pentru colectarea cotelor de întreținere lunar.",
     },
   ];
 
   return (
     <section className="services" id="services">
       <div className="container">
-        <h2>Our Services</h2>
+        <h2>Alege serviciile noastre! </h2>
         <div className="services-grid">
           {services.map((service, index) => (
             <div key={index} className="service-card">

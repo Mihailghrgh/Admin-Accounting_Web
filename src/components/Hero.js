@@ -7,8 +7,9 @@ export default function Hero({ handleScrollIntoView }) {
       <div className="container">
         <h1>ADMIN BUCURESTI SRL</h1>
         <p>
-          Empowering businesses with strategic financial management and
-          efficient administrative processes.
+          Împuternicim asociațiile de proprietari printr-un management financiar
+          strategic și procese administrative eficiente, pentru o administrare
+          modernă și bine organizată a blocurilor.
         </p>
         <button
           className="cta-button"
@@ -17,7 +18,7 @@ export default function Hero({ handleScrollIntoView }) {
             handleScrollIntoView("contact");
           }}
         >
-          Get in Touch
+          Contactează-ne!
         </button>
       </div>
     </section>

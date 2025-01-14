@@ -9,7 +9,7 @@ export default function Header({ handleScrollIntoView, setPage }) {
     <header className="sticky-header">
       <nav className="main-nav">
         <div className="container">
-          <div className="logo">AccountAdmin Pro</div>
+          <div className="logo">Admin SRL</div>
           <ul className="nav-links">
             <li>
               <a
@@ -36,7 +36,7 @@ export default function Header({ handleScrollIntoView, setPage }) {
                   }, 0);
                 }}
               >
-                Services
+                Servicii
               </a>
             </li>
             <li>
@@ -50,7 +50,7 @@ export default function Header({ handleScrollIntoView, setPage }) {
                   }, 0);
                 }}
               >
-                About
+                Despre noi
               </a>
             </li>
             <li>

@@ -41,7 +41,11 @@ export default function Contact() {
   return (
     <section className="contact" id="contact">
       <div className="container">
-        <h2>Contact Us</h2>
+        <h2>Hai să simplificăm administrarea blocurilor pentru tine!</h2>
+        <p className="">
+          Completați formularul de mai jos pentru a afla mai multe despre
+          ofertele și serviciile noastre!
+        </p>
         <div className="contact-grid">
           <form
             className="contact-form"
