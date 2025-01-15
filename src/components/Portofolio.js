@@ -43,18 +43,18 @@ export default function Portofolio() {
 
   const reviews = [
     {
-      text: "Their expertise transformed our operations. Highly recommended!",
-      author: "John Smith",
+      text: "Expertiza lor ne-a ajutat foarte mult. Recomand cu plăcere!",
+      author: "Marian George",
       company: "ASOCIATIA DE PROPRIETARI BLOC 132 SCARA A",
     },
     {
-      text: "Exceptional service and results. They truly understand our needs.",
-      author: "Emma Johnson",
+      text: "Servicii și rezultate excepționale. Înțeleg cu adevărat nevoile noastre!",
+      author: "Ema Ion",
       company: "ASOCIATIA DE PROPRIETARI BLOC M21 SCARA 4",
     },
     {
-      text: "A game-changer for our association. Professional and innovative team.",
-      author: "Michael Brown",
+      text: "Un factor decisiv pentru asociația noastră. O echipă profesionistă și inovatoare.",
+      author: "Mihai Dragos",
       company: "ASOCIATIA DE PROPRIETARI BLOC 27",
     },
   ];
