@@ -5,7 +5,7 @@ export default function Hero({ handleScrollIntoView }) {
   return (
     <section className="hero" id="home">
       <div className="container">
-        <h1>ADMIN BUCURESTI SRL</h1>
+        <h1>Damil Administratie SRL</h1>
         <p>
           Împuternicim asociațiile de proprietari printr-un management financiar
           strategic și procese administrative eficiente, pentru o administrare

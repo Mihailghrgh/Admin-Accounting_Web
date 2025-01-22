@@ -13,7 +13,7 @@ export default function Footer({ handleScrollIntoView }) {
                 <span className="icon phone-icon"></span> +40 234 567 890
               </p>
               <p>
-                <span className="icon mail-icon"></span> info@company.com
+                <span className="icon mail-icon"></span> g_gheorghegww@yahoo.com
               </p>
               <p>
                 <span className="icon map-icon"></span>Sector 6, Aleea Cetatuia

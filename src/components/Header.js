@@ -9,7 +9,7 @@ export default function Header({ handleScrollIntoView, setPage }) {
     <header className="sticky-header">
       <nav className="main-nav">
         <div className="container">
-          <div className="logo">Admin SRL</div>
+          <div className="logo">Damil Administratie SRL</div>
           <ul className="nav-links">
             <li>
               <a
