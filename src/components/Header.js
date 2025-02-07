@@ -7,6 +7,10 @@ export default function Header({ handleScrollIntoView, setPage }) {
   }
   return (
     <header className="sticky-header">
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16831922698"
+      ></script>{" "}
       <nav className="main-nav">
         <div className="container">
           <div className="logo">Damil Administratie SRL</div>
