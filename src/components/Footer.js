@@ -10,7 +10,7 @@ export default function Footer({ handleScrollIntoView }) {
             <h3>Info Contact</h3>
             <div className="contact-info">
               <p>
-                <span className="icon phone-icon"></span> +40 234 567 890
+                <span className="icon phone-icon"></span> +40 735 843 957
               </p>
               <p>
                 <span className="icon mail-icon"></span> g_gheorghegww@yahoo.com
